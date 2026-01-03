@@ -19,6 +19,20 @@
 // let booleanIsLoggedIn = Boolean(isLoggedIn)
 // console.log(booleanIsLoggedIn)
 
-let someNumber =33
-let stringNumber = String(someNumber)
-console.log(stringNumber)
+// let someNumber =33
+// let stringNumber = String(someNumber)
+// console.log(someNumber)
+//********************************** Operations ************************************
+
+
+let value = 3
+let negValue = -value
+//console.log(negValue);
+// console.log(2+2)
+// console.log(2-2)
+// console.log(2*2)
+// console.log(2**2) // 2 to the power 2 **
+console.log("1" + 2)
+console.log(1 + "2")
+console.log("1" + 2 + 2)
+console.log(1 + 2 + "2")
