@@ -1,4 +1,7 @@
 // Primitive data types
+
+const { use } = require("react");
+
 /*
 there are 7 types
 1- String
@@ -38,3 +41,21 @@ const myFunction= function(){
  console.log("Hello world")
 }
 
+
+//************     Memory
+//Stack (primitive), Heap (Non Primitive )
+ 
+let myage = "22"
+ 
+let anotherage = myage
+console.log(anotherage)
+
+let userOne ={
+    email: " abha.com",
+    upi: "user@ybl"
+}
+//objects ko .email se exces kar sak te hai
+let  userTwo = userOne
+userTwo.email ="abhaay.com"
+console.log(userOne.email);
+console.log(userTwo.email);
